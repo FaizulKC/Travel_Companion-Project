@@ -24,7 +24,7 @@ npm install
 npm run dev
 ```
 
-## Live Link: https://far-away-project-faizulkc.vercel.app/
+## Live Link: https://travel-companion-faizulkc.vercel.app/
 
 ## Author
 
