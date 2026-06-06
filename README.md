@@ -24,6 +24,8 @@ npm install
 npm run dev
 ```
 
+## Live Link: https://far-away-project-faizulkc.vercel.app/
+
 ## Author
 
 Faizul Karim Chowdhury
