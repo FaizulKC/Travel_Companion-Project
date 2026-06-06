@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Monoton&family=Quicksand:wght@500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.app {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  font-family: "Quicksand";
+}
+
+.headerLogo h1 {
+  height: 10vh;
+  background-color: #f4a226;
+  font-family: "Monoton";
+  font-size: clamp(1.3rem, 2vw + 1rem, 3.5rem);
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  word-spacing: 20px;
+  letter-spacing: -2px;
+  padding: 1.8rem 0;
+}
+
+.Form {
+  font-size: 0.8rem;
+  color: #5a3e2b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #e5771f;
+  gap: 0.5rem;
+  padding: 1rem 0;
+}
+
+select,
+input,
+button {
+  background-color: #ffebb3;
+  border: none;
+  border-radius: 10rem;
+  color: #5a3e2b;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 0.9rem 2.2rem;
+  margin-left: 0.5rem;
+}
+
+button {
+  background-color: #76c7ad;
+  text-transform: uppercase;
+}
+
+#itemBlock {
+  align-items: center;
+  background-color: #5a3e2b;
+  color: #ffebb3;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.2rem;
+  justify-content: space-around;
+  list-style-type: none;
+  padding: 4rem 0;
+  flex-grow: 1;
+  overflow: auto;
+  position: relative;
+}
+
+.itemButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.9rem;
+  padding: 0.8rem 0rem;
+  transform: translate(-7px, -3px);
+}
+
+input[type="checkbox"] {
+  accent-color: #e5771f;
+  height: 2rem;
+  width: 2rem;
+}
+
+.text {
+  font-size: 2.5rem;
+  padding: 0.8rem;
+  text-transform: capitalize;
+}
+
+.state {
+  width: 100%;
+  background-color: #76c7ad;
+  text-align: center;
+  font-size: 1.5rem;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+  padding: 2.2rem 0;
+}
+
+.sortnclear {
+  margin-bottom: 30px;
+  position: absolute;
+  bottom: 0;
+}
+
+.reset {
+  background-color: #ffebb3;
+}
