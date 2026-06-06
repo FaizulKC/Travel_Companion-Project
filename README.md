@@ -1,4 +1,4 @@
-# Far Away ✈️
+# Travel Companion ✈️
 
 A travel packing list application built with React that helps users organize and track items for their trips.
 
